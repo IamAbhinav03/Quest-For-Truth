@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body background="bg3.jpeg">
+    <header>
+      <h1 class="title">Fact or Fiction</h1>
+    </header>
+    <div class="container">
+      <div class="quiz-container">
+        <div class="question" id="question-text"></div>
+      </div>
+      <div class="button-container">
+        <button id="true-button">True</button>
+        <button id="false-button">False</button>
+      </div>
+      <div class="scoreboard">Score: <span id="score">0</span></div>
+      <div class="timer">Time: <span id="timer">0:00</span></div>
+    </div>
+    <script src="papaparse.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
