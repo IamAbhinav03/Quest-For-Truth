@@ -18,10 +18,17 @@
         <button id="true-button">True</button>
         <button id="false-button">False</button>
       </div>
-      <div class="scoreboard">Score: <span id="score">0</span></div>
+      <!-- <div class="scoreboard">Score: <span id="score">0</span></div> -->
       <div class="timer">Time: <span id="timer">0:00</span></div>
     </div>
-    <script src="papaparse.min.js"></script>
+    <!-- Modal for displaying answer explanation -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modal-heading"></h2>
+        <p id="modal-text"></p>
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
