@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let currentQuestionIndex = 0;
 
   // Fetch questions from the API
-  fetch("http://127.0.0.1:8000/questions")
+  fetch("https://quest-for-truth.vercel.app/questions/")
     .then((response) => response.json())
     .then((data) => {
       questions = data; // Get the first 10 questions
